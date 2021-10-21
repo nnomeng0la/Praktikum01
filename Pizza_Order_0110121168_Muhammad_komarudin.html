@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+            <title>Pizza Order</title>
+    </head>
+    <body>
+        <section>
+            <fieldset style="width: 23%;">
+                <h2>Black Gooes Bistro | Pizza-on-Demand</h2>
+                <p>Our 12" wood-fired pizzas are available for delivery. Build your costum pizza and we'll deliver it within an hour</p>
+                <form action="http://blackgoosebistro.com/pizza.php" method="post"> 
+                   
+                        <legend>Your Information</legend>
+                        <div>
+                            <label>Name:</label>
+                            <input type="text" name="costumername" value="" size="50"/>
+                        </div>
+                        <div>
+                            <label>Address:</label>
+                            <input type="Address" name="address" value="" size="48">
+                        </div>
+                        <div>
+                            <label>Telephon Number:</label>
+                            <input type="number" name="telphon" value="" size="38">
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" value="" size="51">
+                        </div>
+                        <div>
+                            <label for="">Delivery intructions:</label>
+                            <br> <textarea name="alamat" cols="40" rows="3" maxlength="400"></textarea>
+                        </div> 
+                    
+
+                   
+                    <br>
+                    
+                    <p><b>Design Your Dream Pizza:</b>
+                        <br>
+                        Pizza space</p>
+                    <legend>Crust (Choose one):</legend>
+                    <select name="crust" id="" size="4">
+                        <option value="C1">Classic white</option>
+                        <option value="C2">Multigrain</option>
+                        <option value="C3">Cheese-stuffed crust</option>
+                        <option value="C4">Gluten-free</option>
+                    </select>
+                    <p>Toppings (Choose as many as you want):
+                        <br>
+                        <select name="toppings" id="" size="7" multiple>
+                            <option value="">Red sauce</option>
+                            <option value="">White sauce</option>
+                            <option value="">Mozzarella Cheese</option>
+                            <option value="">Pepperoni</option>
+                            <option value="">Mushrooms</option>
+                            <option value="">Peppers</option>
+                            <option value="">Anchovies</option>
+                        </select>
+
+                    </p>
+                    <p>Number
+                    <br> How many pizzas:<input type="number" style="width: 20px;">
+                    </p>
+                    <input type="submit button text" value="Bring me a pizza!" name="prosses"/>
+                    <input type="reset" value="Reset"/>
+                    
+                </form>
+            </fieldset>
+        </section>
+        <aside>
+            <h1 style="text-align: center;">THANK YOU</h1>
+            <hr color="blue">
+            <br>
+            <p>Thank you for ordering from Black Goose Bistro. We have thr following information about your order</p>
+            <h4>Your Information</h4>
+            <p style="margin-right: 100px;"><b>Name:</b> Jennifer Robins
+            <br><b>Address:</b> 123 Streer <br><b>Telephone number:</b> 555-1212 <br> <b>Email Address: </b>jen@example.com</p>
+
+            <p><b>Delivery intructions:</b> Ring The middle buzzer. if nobody answer, text me.</p>
+            <h4>Your pizza</h4>
+            <p style="margin-right ;"><b>Crust:</b>white <br><b>Topping:</b> red sauce, mozzarella, pepperoni, mushrooms <br><b>Number:</b>1</p>
+            <br>
+            <hr color="orange">
+            <P>This site is educational purpose only. No pizzas will be delivered.</P>
+
+        </aside>
+    </body>
+
+
+</html>
